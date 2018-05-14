@@ -8,6 +8,7 @@ body {
     line-height: 34px;
     color: #777;
     background: url("../images/light-grey-terrazzo.png") repeat center center fixed;
+    min-width: 560px;
   }
 
 h1,
@@ -38,9 +39,20 @@ nav {
   padding: 30px;
 }
 
+#footer {
+  border-top: 10px solid #4aaaa5;
+  background-color: #777777;
+  text-align: center;
+}
+
 .nav-link {
   color: #777777;
   line-height: 12px;
+}
+
+.footer {
+  background-color: #777777;
+  color: #fff;
 }
 
 
