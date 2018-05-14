@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/my-styles.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/sticky-footer.css" type="text/css">
     <title>PTD Portfolio Site</title>
   </head>
   <body>
@@ -17,10 +18,10 @@
 
         <ul class="nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">About</a>
+                  <a class="nav-link active" href="./index.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
@@ -28,9 +29,9 @@
               </ul>
     </nav>
 <!-- <br> -->
-    <main class="container">
+    <main class="container-fluid">
         <div class="row p-3">
-            <div id="main-content" class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ">
+            <div id="main-content" class="col-sm-12 col-md-9 col-lg-9 ">
                 <div class="row">
                     <div class="col ">
                         <h2>About Me</h2>
@@ -40,8 +41,8 @@
 
                 <div class="row">
                     <div class="col">
-                            <img class="float-left mr-4 mb-4" src="https://placehold.it/200x200" alt="profile-pic">
-                            <p> &nbsp; Hi! Thanks for visiting my personal web portfolio. To peek at my finished work or preview what is to come please visit my personal gallery page or get in touch using the links above. </p>
+                            <img class="float-left img-thumbnail img-fluid mr-4 mb-4" src="https://placehold.it/200x200" alt="profile-pic">
+                                <p> Hi! Thanks for visiting my personal web portfolio. To peek at my finished work or preview what is to come please visit my personal gallery page or get in touch using the links above. </p>
                     
                                 <p> A little bit about me: Due to the nature of my parents' work as a UN civil servant and teacher, I was fortunate to have grown up internationally, moving from country to country every few years. I particulary loved our time spent living in the wonderful nation of Sri Lanka which was our home base through my most formative years before moving to San Diego to attend <abbr title="University of San Diego">USD</abbr>. </p> 
                                 
@@ -54,6 +55,11 @@
             </div>
         </div>
     </main>
+    <footer class="footer">
+            <div class="container d-flex justify-content-center">
+              <span>Copyright</span>
+            </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
