@@ -1,7 +1,7 @@
 # BOOTSTRAP-PORTFOLIO
 
-# FEATURES TO ADD:
+# NOTES
 
-* responsive images
-* align navbar correctly
-* ask TA about final template images?
+* Bootstrap Contact Form
+* Stylized link with CSS
+* Responsive using Bootstrap Grid
