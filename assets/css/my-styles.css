@@ -28,6 +28,11 @@ body {
     color: #777777;
     line-height: 12px;
   }
+
+  .nav-link:hover, 
+  .nav-link:focus {
+    color: #AA6B4A;
+  }
   
   #main-content {
     background-color: #fff;
@@ -65,6 +70,15 @@ textarea {
   border: none;
 }
 
+.portfolio h3 {
+  opacity: 0.85;
+}
+
+.portfolio h3:hover {
+  transition: all 1s;
+  background-color: #6BF6EF;
+  opacity: 1;
+}
 
 
 
