@@ -1,6 +1,10 @@
-# BOOTSTRAP-PORTFOLIO
+### NOT CURRENT - <a href="https://github.com/philiptd5000/my-portfolio">CLICK HERE</a> FOR UPDATED PORTFOLIO PAGE //
 
-# NOTES
+<hr>
+
+### BOOTSTRAP-PORTFOLIO
+
+## NOTES
 
 * Bootstrap Contact Form
 * Stylized link with CSS
